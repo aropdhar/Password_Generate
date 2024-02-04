@@ -1,0 +1,110 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.input_main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin: 200px auto;
+    background: #cdcbcbee;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+
+.input_main h1{
+
+    background: linear-gradient(to right , #c19906 , rgb(27, 27, 250));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inputbox{
+
+    width: 350px;
+    margin: 20px 0;
+    padding: 10px 0 10px 10px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+
+.btn_main{
+
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+
+.btn_pass{
+
+    background: #752a2a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.btn_copy{
+
+    background: #752a2a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+
+
+
+/* media query */
+
+@media(max-width:768px){
+
+    .input_main{
+
+        width: 300px;
+        
+    }
+
+    .input_main h1{
+
+       font-size: 24px;
+    }
+
+    .inputbox{
+
+        width: 250px;
+    }
+
+    .btn_pass{
+
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+    
+    
+    .btn_copy{
+    
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+}
